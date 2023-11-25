@@ -10,7 +10,7 @@ type AvatarProps = {
   person: Person;
 }
 
-const Avatar: React.FC<AvatarProps> = ({ size, person }) => {
+export const Avatar: React.FC<AvatarProps> = ({ size, person }) => {
   return (
     <img
       className="avatar"
