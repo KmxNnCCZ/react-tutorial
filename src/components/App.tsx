@@ -1,21 +1,7 @@
-function Profiele() {
-  return (
-    <img 
-      src="https://i.imgur.com/MK3eW3As.jpg" 
-      alt="Katherine Johnson" 
-    />
-  );
-}
+import Gallery from './Gallery';
 
-function Gallery() {
-  return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <Profiele />
-      <Profiele />
-      <Profiele />
-    </section>
+export default function App() {
+  return(
+    <Gallery />
   )
 }
-
-export default Gallery
