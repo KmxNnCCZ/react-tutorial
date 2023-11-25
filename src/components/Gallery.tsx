@@ -1,5 +1,5 @@
 // コンポーネント名は大文字から始める
-function Profiele() {
+export function Profile() {
   return (
     <img 
       src="https://i.imgur.com/MK3eW3As.jpg" 
@@ -12,9 +12,9 @@ function Gallery() {
   return (
     <section>
       <h1>Amazing scientists</h1>
-      <Profiele />
-      <Profiele />
-      <Profiele />
+      <Profile />
+      <Profile />
+      <Profile />
     </section>
   )
 }
