@@ -23,6 +23,8 @@ root.render(
     <Components.ProfileChildren />
     <br />
     <Components.PackingList />
+    <br />
+    <Components.List />
 
   </React.StrictMode>
 );
