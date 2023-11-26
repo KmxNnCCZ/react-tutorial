@@ -15,3 +15,14 @@ code {
 img {
   margin: 0 5px;
 }
+
+.avatar {
+  border-radius: 50%;
+}
+
+.card {
+  border: 1px solid black;
+  width: fit-content;
+  border-radius: 10%;
+  padding: 3%;
+}

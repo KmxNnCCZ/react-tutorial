@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-import AppJs from './components/App';
+
+//components.tsxファイルをインポート
+import * as Components from './components';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -10,7 +12,18 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <AppJs />
+    <Components.NowTime />
+    <br />
+    <Components.App />
+    <br />
+    <Components.TodoList />
+    <br />
+    <Components.ProfileProps />
+    <br />
+    <Components.ProfileChildren />
+    <br />
+    <Components.PackingList />
+
   </React.StrictMode>
 );
 
